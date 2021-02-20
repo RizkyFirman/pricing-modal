@@ -80,6 +80,7 @@ a {
 }
 
 #welcome a {
+    color: black;
     font-weight: bold;
 }
 
@@ -390,6 +391,11 @@ nav a {
         outline: none;
         cursor: pointer;
         background-color: transparent;
+    }
+    
+    #show-button {
+        color: white;
+        border: 1px solid white;
     }
 
     #cancel-button {
