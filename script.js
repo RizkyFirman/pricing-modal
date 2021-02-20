@@ -1,16 +1,17 @@
 const closeBtn = document.getElementById("close");
 const cancelBtn = document.getElementById("cancel-button");
 const showBtn = document.getElementById("show-button");
+const welcome = document.getElementById("welcome");
 const container = document.querySelector(".container");
 
 const openModal = function() {
     container.style.display = 'grid';
-    showBtn.style.display = 'none';
+    welcome.style.display = 'none';
 }
 
 const closeModal = function() {
     container.style.display = 'none';
-    showBtn.style.display = 'block';
+    welcome.style.display = 'flex';
 }
 
 showBtn.addEventListener('click', openModal);
