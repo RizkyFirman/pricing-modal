@@ -105,7 +105,7 @@ nav a {
 }
 
 .container {
-    position: relative;
+    position: absolute;
     width: 800px;
     height: 600px;
     background-color: #ffffff96;
@@ -272,6 +272,10 @@ nav a {
     display: none;
 }
 
+.bikini-bottom {
+    display: none;
+}
+
 @media screen and (max-width:768px) {
     body {
         height: 100vh;
@@ -287,6 +291,10 @@ nav a {
         display: none;
     }
 
+    #welcome {
+        padding: 1rem;
+    }
+
     .give-feedback {
         display: none;
     }
@@ -296,8 +304,7 @@ nav a {
     }
 
     .container {
-        overflow: scroll;
-        padding: 3rem 0;
+        overflow-y: scroll;
         width: 90vw;
         height: 100vh;
         grid-template-columns: 100%;
@@ -306,6 +313,11 @@ nav a {
         row-gap: 1em;
         border: none;
         background-color: transparent;
+        background-image: url(background-image.png);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        color: #000000;
         backdrop-filter: blur(0);
         position: absolute;
         top: 0;
@@ -341,7 +353,12 @@ nav a {
         align-items: flex-start;
     }
 
+    .content3 .atas ul {
+        text-align: left;
+    }
+
     .content3 #button {
+        margin: 1em 0;
         padding: 10px 30px;
     }
 
@@ -372,15 +389,15 @@ nav a {
     display: block;
 }
 
+.bikini-bottom {
+    display: block;
+    width: 100%;
+    height: 50px;
+    /* border: solid 1px mediumseagreen; */
+}
+
 #show-button {
     position: absolute;
     bottom: 150px;
 }
 }
-/* 
-@media screen and (max-width:768px) {
-    .container {
-        width: 600px;
-    }
-} */
-
