@@ -291,6 +291,14 @@ nav a {
         display: none;
     }
 
+    header a {
+        display: none;
+    }
+
+    #logo {
+        margin-right: 0;
+    }
+
     #welcome {
         padding: 1rem;
     }
