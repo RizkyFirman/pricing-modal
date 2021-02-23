@@ -2,7 +2,7 @@ const closeBtn = document.getElementById("close");
 const cancelBtn = document.getElementById("cancel-button");
 const showBtn = document.getElementById("show-button");
 const welcome = document.getElementById("welcome");
-const container = document.querySelector(".container");
+const container = document.getElementById("container");
 
 const openModal = function() {
     container.style.display = 'grid';

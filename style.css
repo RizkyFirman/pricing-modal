@@ -105,7 +105,7 @@ nav a {
     padding:0 .5rem;
 }
 
-.container {
+#container {
     position: absolute;
     width: 800px;
     height: 600px;
@@ -265,7 +265,7 @@ nav a {
     transform: translateY(-5px);
 }
 
-.container {
+#container {
     display: none;
 }
 
@@ -312,7 +312,7 @@ nav a {
         display: none;
     }
 
-    .container {
+    #container {
         overflow-y: scroll;
         width: 90vw;
         height: 100vh;
